@@ -1,0 +1,20 @@
+{
+    "name": "hermanto/legitc-php-framework",
+    "description": "Personal PHP Framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hermanto050302",
+            "email": "48467488+Hermanto050302@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.8",
+        "filp/whoops": "^2.14"
+    }
+}
